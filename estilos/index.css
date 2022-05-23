@@ -1,0 +1,65 @@
+/* * {
+    font-family: 'League Spartan', sans-serif;
+} */
+
+h1 {
+    font-family: 'League Spartan', sans-serif;
+}
+
+a {
+    font-family: 'League Spartan', sans-serif;
+}
+
+p {
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #26282B;
+}
+
+/* .navbar-light:hover .navbar-nav:hover .nav-link:hover {
+    color: #5F85DB;
+} */
+
+/* Sección Home */
+.banner {
+    background-image: url("../media/banner.jpg");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.texto {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #26282B;
+}
+
+/* Sección Home */
+.sobre {
+    background-color: #90B8F8;
+}
+
+.textoSobre {
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #26282B;
+}
+
+.caja {
+    border: 2px solid black;
+    height: 200px;
+}
+
+.cajas {
+    position: relative;
+    top: 20%;
+}
