@@ -1,12 +1,12 @@
-* {
+/* * {
     font-family: 'League Spartan', sans-serif;
-}
+} */
 
 body {
     background-color: #5F85DB;
 }
 
-/* h1 {
+h1 {
     font-family: 'League Spartan', sans-serif;
 }
 
@@ -16,7 +16,7 @@ a {
 
 p {
     font-family: 'Libre Baskerville', sans-serif;
-} */
+}
 
 .navbar-light .navbar-nav .nav-link {
     color: #D3E0EA;
@@ -42,20 +42,24 @@ p {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #D3E0EA;
+    color: #fff;
 }
 
 .texto p {
     font-size: 20px;
 }
 
-/* Sección Home */
+.perfil {
+    position: absolute;
+}
+
+/* Sección Sobre */
 .textoSobre {
     position: relative;
     top: 19%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #D3E0EA;
+    color: #fff;
 }
 
 .textoSobre p {
@@ -63,7 +67,7 @@ p {
 }
 
 .box {
-    color: #D3E0EA;
+    color: #fff;
 }
 
 /* Sección Trabajos */
@@ -72,7 +76,7 @@ p {
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #D3E0EA;
+    color: #fff;
 }
 
 .textoTrabajo {
@@ -82,8 +86,23 @@ p {
 /* Sección Contacto */
 .textoContacto {
     position: relative;
-    top: 13%;
+    top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #D3E0EA;
+    color: #fff;
+}
+
+.textoContacto {
+    font-size: 20px;
+}
+
+/* Efectos */
+.efecto1 {
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.efecto1:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
