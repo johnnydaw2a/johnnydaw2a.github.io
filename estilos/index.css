@@ -2,6 +2,10 @@
     font-family: 'League Spartan', sans-serif;
 } */
 
+body {
+    background-color: #5F85DB;
+}
+
 h1 {
     font-family: 'League Spartan', sans-serif;
 }
@@ -15,22 +19,22 @@ p {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #26282B;
+    color: #D3E0EA;
 }
 
-/* .navbar-light:hover .navbar-nav:hover .nav-link:hover {
+.navbar-light:hover .navbar-nav:hover .nav-link:hover {
     color: #5F85DB;
-} */
+}
 
 /* Sección Home */
 .banner {
-    background-image: url("../media/banner.jpg");
+    background-image: url("../media/banner.png");
     min-height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 .texto {
@@ -38,28 +42,48 @@ p {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #26282B;
+    color: #D3E0EA;
+}
+
+.texto p {
+    font-size: 20px;
 }
 
 /* Sección Home */
-.sobre {
-    background-color: #90B8F8;
+.textoSobre {
+    position: relative;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #D3E0EA;
 }
 
-.textoSobre {
+.textoSobre p {
+    font-size: 20px;
+}
+
+.box {
+    color: #D3E0EA;
+}
+
+/* Sección Trabajos */
+.textoTrabajo {
     position: relative;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #26282B;
+    color: #D3E0EA;
 }
 
-.caja {
-    border: 2px solid black;
-    height: 200px;
+.textoTrabajo {
+    font-size: 20px;
 }
 
-.cajas {
+/* Sección Contacto */
+.textoContacto {
     position: relative;
-    top: 20%;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #D3E0EA;
 }
