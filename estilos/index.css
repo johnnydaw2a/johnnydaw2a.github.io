@@ -1,12 +1,12 @@
-/* * {
+* {
     font-family: 'League Spartan', sans-serif;
-} */
+}
 
 body {
     background-color: #5F85DB;
 }
 
-h1 {
+/* h1 {
     font-family: 'League Spartan', sans-serif;
 }
 
@@ -16,7 +16,7 @@ a {
 
 p {
     font-family: 'Libre Baskerville', sans-serif;
-}
+} */
 
 .navbar-light .navbar-nav .nav-link {
     color: #D3E0EA;
