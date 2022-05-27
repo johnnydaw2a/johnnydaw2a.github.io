@@ -20,7 +20,7 @@ p {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #D3E0EA;
+    color: #90B8F8;
 }
 
 .navbar-light:hover .navbar-nav:hover .nav-link:hover {
@@ -35,15 +35,16 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.2;
+    opacity: 0.1;
 }
 
 .texto {
+    font-weight: bold;
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: #26282B;
 }
 
 .texto p {
@@ -64,7 +65,8 @@ p {
     top: 19%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: #26282B;
+    font-weight: bold;
 }
 
 .textoSobre p {
@@ -72,7 +74,8 @@ p {
 }
 
 .box {
-    color: #fff;
+    color: #26282B;
+    font-weight: bold;
 }
 
 /* Sección Trabajos */
@@ -81,7 +84,8 @@ p {
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: #26282B;
+    font-weight: bold;
 }
 
 .textoTrabajo {
@@ -94,7 +98,8 @@ p {
     top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: #26282B;
+    font-weight: bold;
 }
 
 .textoContacto {
